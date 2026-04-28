@@ -1,0 +1,233 @@
+Perfect 👍 Below are **clear, beginner-friendly answers** to the **most common data science technical questions for freshers**. These are phrased the way interviewers *like* to hear them.
+
+---
+
+## 📊 **Statistics & Probability (with Answers)**
+
+**1. Mean, Median, Mode**
+
+* **Mean**: Average of values
+* **Median**: Middle value after sorting
+* **Mode**: Most frequent value
+  👉 Median is best when data has outliers.
+
+**2. Standard Deviation**
+
+* Measures how spread out data is from the mean.
+* High SD = more variability.
+
+**3. Normal Distribution**
+
+* Bell-shaped curve where mean = median = mode.
+* Follows the **68–95–99.7 rule**.
+
+**4. P-value**
+
+* Probability of getting results as extreme as observed, assuming null hypothesis is true.
+* If p < 0.05 → reject null hypothesis.
+
+**5. Confidence Interval**
+
+* Range in which the true population parameter is likely to lie.
+* Example: 95% CI means we’re 95% confident.
+
+**6. Correlation vs Covariance**
+
+* **Covariance**: Direction of relationship
+* **Correlation**: Strength + direction (scaled between -1 and 1)
+
+**7. Type I & Type II Error**
+
+* **Type I**: False Positive
+* **Type II**: False Negative
+
+**8. Bayes’ Theorem**
+
+* Updates probability based on new evidence.
+* Used in spam detection, medical diagnosis.
+
+---
+
+## 🤖 **Machine Learning**
+
+**1. Supervised vs Unsupervised Learning**
+
+* **Supervised**: Labeled data (Regression, Classification)
+* **Unsupervised**: No labels (Clustering)
+
+**2. Classification vs Regression**
+
+* **Classification**: Predicts category (Yes/No)
+* **Regression**: Predicts continuous value (price)
+
+**3. Overfitting & Underfitting**
+
+* **Overfitting**: Model learns noise, poor test performance
+* **Underfitting**: Model too simple, poor performance overall
+
+**4. Bias–Variance Tradeoff**
+
+* Bias = error from simplicity
+* Variance = error from complexity
+* Goal: balance both.
+
+**5. Train-Test Split**
+
+* Splits data to test model on unseen data.
+
+**6. Cross-Validation**
+
+* Divides data into multiple folds for robust evaluation.
+
+**7. L1 vs L2 Regularization**
+
+* **L1 (Lasso)**: Feature selection
+* **L2 (Ridge)**: Shrinks coefficients
+
+**8. KNN**
+
+* Predicts based on nearest neighbors.
+* Lazy, distance-based algorithm.
+
+**9. Decision Tree**
+
+* Rule-based model that splits data based on conditions.
+
+**10. Random Forest**
+
+* Ensemble of decision trees.
+* Reduces overfitting.
+
+---
+
+## 🐍 **Python for Data Science**
+
+**1. List vs Tuple**
+
+* List: Mutable
+* Tuple: Immutable (faster)
+
+**2. NumPy Array**
+
+* Faster, memory-efficient arrays for numerical operations.
+
+**3. Pandas Series vs DataFrame**
+
+* Series: 1D
+* DataFrame: 2D table
+
+**4. Handling Missing Values**
+
+* Drop them or fill using mean/median/mode.
+
+**5. Lambda Function**
+
+* Small anonymous function written in one line.
+
+**6. `apply()` vs `map()`**
+
+* `map()`: Series only
+* `apply()`: Rows/columns
+
+**7. Vectorization**
+
+* Performing operations without loops → faster execution.
+
+---
+
+## 🗄️ **SQL**
+
+**1. WHERE vs HAVING**
+
+* WHERE: filters rows
+* HAVING: filters groups
+
+**2. Primary vs Foreign Key**
+
+* Primary: Unique identifier
+* Foreign: Links tables
+
+**3. INNER JOIN vs LEFT JOIN**
+
+* INNER: Common rows
+* LEFT: All left table rows
+
+**4. Second Highest Salary**
+
+```sql
+SELECT MAX(salary)
+FROM table
+WHERE salary < (SELECT MAX(salary) FROM table);
+```
+
+**5. GROUP BY**
+
+* Groups rows for aggregation.
+
+**6. Indexing**
+
+* Improves query speed.
+
+---
+
+## 📈 **EDA & Data Analysis**
+
+**1. EDA**
+
+* Process of understanding data using statistics and plots.
+
+**2. Handling Outliers**
+
+* Remove, cap, or transform them.
+
+**3. Box Plot**
+
+* Visualizes distribution and outliers.
+
+**4. Univariate vs Bivariate**
+
+* Univariate: One variable
+* Bivariate: Two variables
+
+**5. Imbalanced Data**
+
+* Use resampling, class weights, or SMOTE.
+
+---
+
+## 🧠 **Scenario-Based Questions**
+
+**1. New Dataset Approach**
+
+* Understand problem → clean data → EDA → model → evaluate
+
+**2. Good Train, Poor Test Performance**
+
+* Overfitting → use regularization or simpler model
+
+**3. Model Selection**
+
+* Based on data type, problem, and performance
+
+**4. Validation**
+
+* Use cross-validation and metrics
+
+---
+
+## 🎯 **Fresher Interview Tip**
+
+👉 Clear explanation > complex math
+👉 Think aloud
+👉 Use real-life examples
+
+---
+
+If you want, I can:
+
+* Convert this into a **PDF/notes**
+* Ask **interview-style follow-up questions**
+* Do a **mock interview**
+* Share **coding practice questions**
+
+Just tell me what you want next 😄
